@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MAsterClass</title>
+</head>
+<body>
+     <!-- html lists -->
+     <p>Ordered(uses  numbers)</p>
+        <ol>
+            <li>This is item1</li>
+            <li>This is item</li>
+            <li>This is item3</li>
+        </ol>
+
+    <p> Unordered(use bullets)</p>
+        <ul> 
+            <li>This is item1</li>
+            <li>This is item2</li>
+            <li>This is item3</li>
+        </ul>
+
+    <p> description list</p>
+<!-- dl-definition lists
+     dt-definition term
+    dd-used to contain the definition -->
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
+<!-- Nested list -->
+
+<!-- <ul>
+    <li>School</li>
+
+    <li>Class_rooms
+             <ol>
+                 <li>first class_room</li>
+                 <li>second class_room</li>
+                 <li>third class_room</li>
+             </ol>
+    </li>
+
+    <li>Staff_room
+       		 <ul>
+                <li>English Medium teachers</li>
+                <li>Hindi Medium teachers</li>
+                <li>Telugu Medium teachers</li>
+       		 </ul>
+    </li>
+
+    <li>Office_room</li>
+</ul> -->
+
+<hr>
+<p>HTML links</p>
+          <!-- →Links are created using the "a" tag, which has an attribute called href.
+           when the user clicks on the link, it will be taken to the page
+            specified in the href attribute. -->
+
+            <!-- By default, the linked page will be displayed in the current browser window. 
+            To change this, you must specify another target for the link, for that we have "target" attribute -->
+            <a href="https://codeforindia.com/">"click here" </a><br><br>
+
+<a href="https://codeforindia.com/" target="_self"> Default. Opens the document in the same window/tab as it was clicked</a><br><br>
+
+<a href="https://codeforindia.com/" target="_blank">Opens the document in a new window or tab , as it was clicked</a><br><br>
+
+<a href="https://codeforindia.com/" target="_parent ">Opens the document in the parent frame, as it was clicked</a><br><br>
+
+<a href="https://codeforindia.com/" target="_top ">Opens the document in the full body of the window, as it was clicked</a><br><br>
+
+       <br> <!-- image as link -->
+        <h2>Image as a Link</h2>
+
+        <p>The image below is a link. Try to click on it.</p>
+
+        <a href="https://codeforindia.com/">
+            <img src="CFI_logo.jpeg" alt="This text only  shows to user on window, when you don't pass correct URL to href tag" style="width:42px;height:42px;" > 
+  
+        </a>
+
+
+    <br><br>
+<!-- Image Size - Width and Height -->
+<img src="HTML_logo.png" alt="logo of HTML " width="100px" height="100px"><br><br>
+
+<img src="HTML_logo.png" alt="logo of HTML " width="150" height="150"><br><br>
+<!-- The width and height attributes always define the width and height of the image in pixels. -->
+
+<img src="HTML_logo.png" alt="logo of HTML " style="width:200px;height:150px;" ><br><br>
+<!-- However, we suggest using the style attribute. It prevents styles sheets from changing the size of images: -->
+
+
+<!-- If you have your images in a sub-folder, you must include the folder name in the src attribute -->
+<img src="/Repo-HTML/CFI/CFI_logo.jpeg" alt="logo of HTML "  ><br><br>
+
+
+</body>
+</html>

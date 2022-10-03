@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Project Survey</title>
+</head>
+<body>
+
+<form action="https://codeforindia.com/">
+<div >
+
+<center>
+    <h1><u>CodeForIndia  Survey form</u></h1>
+    <img src="CFI_logo.jpeg" alt="logo of CFI" width="250" height="200"><br>
+
+   <div style="width:50%">
+    <fieldset align="left" >
+        <legend>Personal Details:</legend>
+            <label for="fname">First name*:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name(Optional)" ><br><br>
+            
+            <label for="email"> Email*:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="Mobile">Mobile*:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Ex:12345-67890" pattern="[0-9]{5}-[0-9]{5}" required><br><br>
+            <!-- <input type="tel" id="Mobile" name="Moblie" placeholder="Enter your number"><br><br> -->
+            <label for="birthday">Birthday*:</label>
+            <input type="date" id="birthday" name="birthday" required><br><br>
+
+            
+            <label for="Gender" >Select Gender*:</label> 
+            <input type="radio" name="Gender" value=1 >Male
+            <input type="radio" name="Gender" value=2>Female
+            <input type="radio" name="Gender" value=3>Other
+            <br><br>
+            
+            <label for="interest"  required="required">Interested in:</label>
+            <input type="checkbox" name="interest">Coding 
+            <input type="checkbox" name="interest" > Scrolling
+            <input type="checkbox" name="interest ">Reading novels
+            <input type="checkbox" name="interest ">playing sportsbr 
+            <input type="checkbox" name="interest">Others 
+            <br><br>
+
+            <label for="language">Mother tongue*:</label>
+            <select name="Languages" required >
+                <option value=1 selected = "true">Urdu
+                <option value=2 >English
+                <option value=3 >Hindi
+                <option value=4 >Telugu
+                <option value=5 >other
+            </select>
+            </br>
+
+           <p> Address*:</p>
+            <textarea name="address" cols=30 rows=5 required></textarea> 
+            <br><br>
+            <center><input type="submit"  value="Submit">
+                <!-- <br><br> -->
+                <!-- <button type="button"  onclick="alert('Thank you for filling CFI Survey form')">Submit</button> -->
+            </center>
+    </fieldset>
+   </div>  
+</center>
+</div>
+</form>
+</body>
+</html>
